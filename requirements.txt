@@ -1,7 +1,0 @@
-python-telegram-bot>=20.0
-requests
-python-whois
-shodan
-exifread
-phonenumbers
-tldextract
