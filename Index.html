@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Permission Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <h1>Permission Demo</h1>
+    <p>
+      Camera, microphone aur location tabhi access honge
+      jab aap button press karke permission denge.
+    </p>
+
+    <button id="cameraBtn">📷 Enable Camera</button>
+
+    <video id="video" autoplay playsinline hidden></video>
+
+    <button id="captureBtn" hidden>📸 Take Photo</button>
+
+    <button id="micBtn">🎤 Test Microphone</button>
+
+    <button id="locationBtn">📍 Get My Location</button>
+
+    <p id="status">Ready.</p>
+
+    <button id="submitBtn" disabled>
+      Send My Approved Data
+    </button>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
