@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #101114;
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.card {
+  width: 100%;
+  max-width: 430px;
+  background: #1b1d22;
+  padding: 24px;
+  border-radius: 18px;
+}
+
+p {
+  color: #bbb;
+  line-height: 1.5;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  margin: 8px 0;
+  border: 0;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+video {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 12px;
+}
+
+#submitBtn {
+  background: #35a853;
+  color: white;
+}
+
+#submitBtn:disabled {
+  opacity: .4;
+}
+
+#status {
+  background: #111;
+  padding: 12px;
+  border-radius: 10px;
+}
